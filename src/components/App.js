@@ -14,6 +14,10 @@ const App = () => {
         <button onClick={() => setResource('todos')}>
           Todos
         </button>
+        <button onClick={() => setResource('albums')}>
+          Albums
+        </button>
+        
       </div>
       <ResourcesList resource={resource} />
     </div>
